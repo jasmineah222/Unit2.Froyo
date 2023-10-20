@@ -1,0 +1,29 @@
+.order-box{
+    box-shadow: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-rows: row;
+    grid-gap: 25px 0px;
+
+
+}
+
+.flavor-box, .total-box {
+    box-shadow: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: column;
+    grid-column-gap: 5px;
+
+    border: black solid 5px;
+    padding: 15px;
+}
+
+
+
+.froyo{
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+    padding: 15px;
+}
+
